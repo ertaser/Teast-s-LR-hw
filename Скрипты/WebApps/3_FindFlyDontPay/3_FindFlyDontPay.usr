@@ -1,0 +1,67 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=3_FindFlyDontPay.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=55
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.55.0.911
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.55.0.911
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="BP_webtours__*delimiter*__enterWebtours__*delimiter*__login__*delimiter*__flights__*delimiter*__findflight__*delimiter*__ChuseFly__*delimiter*__SignOFF"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+BP_webtours=
+enterWebtours=
+login=
+flights=
+findflight=
+ChuseFly=
+SignOFF=

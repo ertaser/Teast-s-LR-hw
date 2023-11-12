@@ -1,0 +1,37 @@
+[
+    {
+        "transactionName": "enterWebtours",
+        "rawStartTime": 1699781656792,
+        "rawEndTime": 1699781657075
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1699781657107,
+        "rawEndTime": 1699781657280
+    },
+    {
+        "transactionName": "flights",
+        "rawStartTime": 1699781657312,
+        "rawEndTime": 1699781657552
+    },
+    {
+        "transactionName": "findflight",
+        "rawStartTime": 1699781657584,
+        "rawEndTime": 1699781657727
+    },
+    {
+        "transactionName": "ChuseFly",
+        "rawStartTime": 1699781657759,
+        "rawEndTime": 1699781657855
+    },
+    {
+        "transactionName": "SignOFF",
+        "rawStartTime": 1699781657885,
+        "rawEndTime": 1699781658027
+    },
+    {
+        "transactionName": "BP_webtours",
+        "rawStartTime": 1699781656776,
+        "rawEndTime": 1699781658043
+    }
+]

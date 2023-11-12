@@ -1,0 +1,9 @@
+[t52]
+FileName1=t52.html
+URL1=http://localhost:1080/WebTours/classes/Calendar.class
+Total=1
+RequestHeaderFile=t52_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t52_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_52.xml

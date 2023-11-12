@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Loadrunner\first\WebApps\3_FindFlyDontPay
+-IC:\Users\ertas\LTest\LoadRunner\include
+-ed:\loadrunner\first\webapps\3_findflydontpay\\logfile.log
+d:\loadrunner\first\webapps\3_findflydontpay\\combined_3_FindFlyDontPay.c
+d:\loadrunner\first\webapps\3_findflydontpay\\pre_cci.c

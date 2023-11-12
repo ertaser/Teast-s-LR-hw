@@ -1,0 +1,9 @@
+[t8]
+FileName1=t8.html
+URL1=http://localhost:1080/WebTours/classes/CalSelect.class
+Total=1
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_5.xml
