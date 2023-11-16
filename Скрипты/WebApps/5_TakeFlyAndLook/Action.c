@@ -4,11 +4,15 @@ Action()
 	lr_start_transaction("BP_webtours");
 
 	lr_start_transaction("enterwebtours");
-
-	web_reg_find("Text/IC=Error","fail=found",LAST);
 	
+	web_reg_save_param("userSession",
+		"LB=userSession\" value=\"",
+		"RB=\"",
+		LAST);
+
 	web_url("webtours", 
 		"URL=http://localhost:1080/webtours/", 
+		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
@@ -18,19 +22,26 @@ Action()
 
 	lr_end_transaction("enterwebtours",LR_AUTO);
 
-	lr_think_time(5);
+	lr_think_time(5 );
 
 	lr_start_transaction("login");
 	
 	web_reg_find("Text/IC=User password was correct",LAST);
-	
 	web_reg_find("Text/IC=Error","fail=found",LAST);
 
-	web_submit_form("login.pl", 
+	web_submit_data("login.pl", 
+		"Action=http://localhost:1080/cgi-bin/login.pl", 
+		"Method=POST", 
+		"TargetFrame=body", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home", 
 		"Snapshot=t2.inf", 
+		"Mode=HTML", 
 		ITEMDATA, 
+		"Name=userSession", "Value={userSession}", ENDITEM, 
 		"Name=username", "Value={login}", ENDITEM, 
 		"Name=password", "Value={password}", ENDITEM, 
+		"Name=JSFormSubmit", "Value=off", ENDITEM, 
 		"Name=login.x", "Value=29", ENDITEM, 
 		"Name=login.y", "Value=15", ENDITEM, 
 		LAST);
@@ -40,51 +51,55 @@ Action()
 	lr_think_time(5);
 
 	lr_start_transaction("Flights");
-	
-	web_reg_find("Text/IC=Error","fail=found",LAST);
 
-	web_image("Search Flights Button", 
-		"Alt=Search Flights Button", 
+	web_url("Search Flights Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
 		"Snapshot=t3.inf", 
+		"Mode=HTML", 
 		LAST);
 
 	lr_end_transaction("Flights",LR_AUTO);
 
-	lr_think_time(5);
+	lr_think_time(4);
 
 	web_custom_request("FormDateUpdate.class", 
 		"URL=http://localhost:1080/WebTours/classes/FormDateUpdate.class", 
 		"Method=HEAD", 
+		"TargetFrame=", 
 		"Resource=1", 
 		"Referer=", 
-		"Snapshot=t7.inf", 
+		"Snapshot=t4.inf", 
 		LAST);
 
-	lr_think_time(5);
+	lr_think_time(6);
 
 	web_custom_request("CalSelect.class", 
 		"URL=http://localhost:1080/WebTours/classes/CalSelect.class", 
 		"Method=HEAD", 
+		"TargetFrame=", 
 		"Resource=1", 
 		"Referer=", 
-		"Snapshot=t8.inf", 
+		"Snapshot=t5.inf", 
 		LAST);
 
 	web_custom_request("Calendar.class", 
 		"URL=http://localhost:1080/WebTours/classes/Calendar.class", 
 		"Method=HEAD", 
+		"TargetFrame=", 
 		"Resource=1", 
 		"Referer=", 
-		"Snapshot=t9.inf", 
+		"Snapshot=t6.inf", 
 		LAST);
 
 	lr_think_time(5);
 
 	lr_start_transaction("FindFlight");
 	
-		web_reg_find("Text/IC=Error","fail=found",LAST);
-	
-		web_reg_save_param("outboundFlight1", 
+	web_reg_save_param("outboundFlight1",
     	"LB=\"outboundFlight\" value=\"", 
     	"RB=\"",
     	"ORD=ALL",  
@@ -93,9 +108,10 @@ Action()
 	web_submit_data("reservations.pl", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
 		"Method=POST", 
+		"TargetFrame=", 
 		"RecContentType=text/html", 
 		"Referer=http://localhost:1080/cgi-bin/reservations.pl?page=welcome", 
-		"Snapshot=t10.inf", 
+		"Snapshot=t7.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
 		"Name=advanceDiscount", "Value=0", ENDITEM, 
@@ -103,7 +119,7 @@ Action()
 		"Name=departDate", "Value={departDate}", ENDITEM, 
 		"Name=arrive", "Value={arriveCity}", ENDITEM, 
 		"Name=returnDate", "Value={returnDate}", ENDITEM, 
-		"Name=numPassengers", "Value={RandomsPassengers}", ENDITEM, 
+		"Name=numPassengers", "Value=1", ENDITEM, 
 		"Name=seatPref", "Value={seatPref}", ENDITEM, 
 		"Name=seatType", "Value={seatType}", ENDITEM, 
 		"Name=.cgifields", "Value=roundtrip", ENDITEM, 
@@ -114,19 +130,30 @@ Action()
 		LAST);
 	
 	lr_save_string(lr_paramarr_random("outboundFlight1"), "outboundFlightStr");
-
+	
+	
 	lr_end_transaction("FindFlight",LR_AUTO);
 
 	lr_think_time(5);
-
-	lr_start_transaction("ChuseFly");
 	
-	web_reg_find("Text/IC=Error","fail=found",LAST);
+	
+	
+	lr_start_transaction("ChuseFly");
 
-	web_submit_form("reservations.pl_2", 
-		"Snapshot=t11.inf", 
+	web_submit_data("reservations.pl_2", 
+		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Method=POST", 
+		"TargetFrame=", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Snapshot=t8.inf", 
+		"Mode=HTML", 
 		ITEMDATA, 
 		"Name=outboundFlight", "Value={outboundFlightStr}", ENDITEM, 
+		"Name=numPassengers", "Value={RandomsPassengers}", ENDITEM, 
+		"Name=advanceDiscount", "Value=0", ENDITEM, 
+		"Name=seatType", "Value={seatType}", ENDITEM, 
+		"Name=seatPref", "Value={seatPref}", ENDITEM, 
 		"Name=reserveFlights.x", "Value=54", ENDITEM, 
 		"Name=reserveFlights.y", "Value=7", ENDITEM, 
 		LAST);
@@ -136,11 +163,15 @@ Action()
 	lr_think_time(5);
 
 	lr_start_transaction("Credintails");
-	
-	web_reg_find("Text/IC=Error","fail=found",LAST);
 
-	web_submit_form("reservations.pl_3", 
-		"Snapshot=t12.inf", 
+	web_submit_data("reservations.pl_3", 
+		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Method=POST", 
+		"TargetFrame=", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Snapshot=t9.inf", 
+		"Mode=HTML", 
 		ITEMDATA, 
 		"Name=firstName", "Value={firstName}", ENDITEM, 
 		"Name=lastName", "Value={lastName}", ENDITEM, 
@@ -149,7 +180,15 @@ Action()
 		"Name=pass1", "Value={firstName} {lastName}", ENDITEM, 
 		"Name=creditCard", "Value={creditCard}", ENDITEM, 
 		"Name=expDate", "Value={expDate}", ENDITEM, 
-		"Name=saveCC", "Value=<OFF>", ENDITEM, 
+		"Name=oldCCOption", "Value=", ENDITEM, 
+		"Name=numPassengers", "Value={RandomsPassengers}", ENDITEM, 
+		"Name=seatType", "Value={seatType}", ENDITEM, 
+		"Name=seatPref", "Value={seatPref}", ENDITEM, 
+		"Name=outboundFlight", "Value={outboundFlightStr}", ENDITEM, 
+		"Name=advanceDiscount", "Value=0", ENDITEM, 
+		"Name=returnFlight", "Value=", ENDITEM, 
+		"Name=JSFormSubmit", "Value=off", ENDITEM, 
+		"Name=.cgifields", "Value=saveCC", ENDITEM, 
 		"Name=buyFlights.x", "Value=26", ENDITEM, 
 		"Name=buyFlights.y", "Value=8", ENDITEM, 
 		LAST);
@@ -159,21 +198,18 @@ Action()
 	lr_think_time(5);
 
 	lr_start_transaction("invoice");
-	
-	web_reg_find("Text/IC=Error","fail=found",LAST);
 
 	lr_end_transaction("invoice",LR_AUTO);
 
 	lr_start_transaction("gotolist");
-	
-	web_reg_find("Text/IC=Error","fail=found",LAST);
 
 	web_url("welcome.pl", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"TargetFrame=", 
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
-		"Snapshot=t13.inf", 
+		"Snapshot=t10.inf", 
 		"Mode=HTML", 
 		LAST);
 
@@ -182,19 +218,20 @@ Action()
 	lr_think_time(5);
 
 	lr_start_transaction("Signoff");
-	
-	web_reg_find("Text/IC=Error","fail=found",LAST);
 
-	web_image("SignOff Button", 
-		"Alt=SignOff Button", 
-		"Snapshot=t15.inf", 
+	web_url("SignOff Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary", 
+		"Snapshot=t12.inf", 
+		"Mode=HTML", 
 		LAST);
 
-	
-	
 	lr_end_transaction("Signoff", LR_AUTO);
 	
 	lr_end_transaction("BP_webtours", LR_AUTO);
-
+	
 	return 0;
 }
