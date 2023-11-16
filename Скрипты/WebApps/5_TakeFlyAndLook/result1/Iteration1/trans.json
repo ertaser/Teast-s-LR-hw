@@ -1,52 +1,37 @@
 [
     {
         "transactionName": "enterwebtours",
-        "rawStartTime": 1699796624633,
-        "rawEndTime": 1699796624920
+        "rawStartTime": 1700158877169,
+        "rawEndTime": 1700158884893
     },
     {
         "transactionName": "login",
-        "rawStartTime": 1699796624952,
-        "rawEndTime": 1699796625187
+        "rawStartTime": 1700158884925,
+        "rawEndTime": 1700158885206
     },
     {
         "transactionName": "Flights",
-        "rawStartTime": 1699796625219,
-        "rawEndTime": 1699796625379
-    },
-    {
-        "transactionName": "FindFlight",
-        "rawStartTime": 1699796625489,
-        "rawEndTime": 1699796625631
-    },
-    {
-        "transactionName": "ChuseFly",
-        "rawStartTime": 1699796625663,
-        "rawEndTime": 1699796625758
-    },
-    {
-        "transactionName": "Credintails",
-        "rawStartTime": 1699796625791,
-        "rawEndTime": 1699796625885
+        "rawStartTime": 1700158885238,
+        "rawEndTime": 1700158885551
     },
     {
         "transactionName": "invoice",
-        "rawStartTime": 1699796625916,
-        "rawEndTime": 1699796625932
+        "rawStartTime": 1700158885754,
+        "rawEndTime": 1700158885769
     },
     {
         "transactionName": "gotolist",
-        "rawStartTime": 1699796625948,
-        "rawEndTime": 1699796626170
+        "rawStartTime": 1700158885785,
+        "rawEndTime": 1700158886004
     },
     {
         "transactionName": "Signoff",
-        "rawStartTime": 1699796626201,
-        "rawEndTime": 1699796626360
+        "rawStartTime": 1700158886035,
+        "rawEndTime": 1700158886195
     },
     {
         "transactionName": "BP_webtours",
-        "rawStartTime": 1699796624617,
-        "rawEndTime": 1699796626375
+        "rawStartTime": 1700158877153,
+        "rawEndTime": 1700158886210
     }
 ]
