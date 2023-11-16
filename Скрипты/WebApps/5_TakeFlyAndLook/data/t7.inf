@@ -1,11 +1,9 @@
 [t7]
-FileName1=t7.htm
-URL1=http://localhost:1080/cgi-bin/reservations.pl
+FileName1=t7.html
+URL1=http://localhost:1080/WebTours/classes/FormDateUpdate.class
 Total=1
 RequestHeaderFile=t7_RequestHeader.txt
-RequestBodyFile=t7_RequestBody.txt
+RequestBodyFile=NONE
 ResponseHeaderFile=t7_ResponseHeader.txt
-ContentType=text/html
-SnapshotXmlFile=snapshot_7.xml
-[ProtocolInfo]
-ProtocolId=QTWeb
+ContentType=
+SnapshotXmlFile=snapshot_4.xml
