@@ -1,9 +1,0 @@
-[t51]
-FileName1=t51.html
-URL1=http://localhost:1080/WebTours/classes/CalSelect.class
-Total=1
-RequestHeaderFile=t51_RequestHeader.txt
-RequestBodyFile=NONE
-ResponseHeaderFile=t51_ResponseHeader.txt
-ContentType=
-SnapshotXmlFile=snapshot_51.xml

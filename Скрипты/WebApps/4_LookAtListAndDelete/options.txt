@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\Loadrunner\first\WebApps\4_LookAtListAndDelete
--IC:\Users\ertas\LTest\LoadRunner\include
--ed:\loadrunner\first\webapps\4_lookatlistanddelete\\logfile.log
-d:\loadrunner\first\webapps\4_lookatlistanddelete\\combined_4_LookAtListAndDelete.c
-d:\loadrunner\first\webapps\4_lookatlistanddelete\\pre_cci.c

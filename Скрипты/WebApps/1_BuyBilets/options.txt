@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\Loadrunner\first\WebApps\1_BuyBilets
--IC:\Users\ertas\LTest\LoadRunner\include
--ed:\loadrunner\first\webapps\1_buybilets\\logfile.log
-d:\loadrunner\first\webapps\1_buybilets\\combined_1_BuyBilets.c
-d:\loadrunner\first\webapps\1_buybilets\\pre_cci.c

@@ -1,9 +1,0 @@
-[t24]
-FileName1=t24.html
-URL1=http://localhost:1080/WebTours/classes/Calendar.class
-Total=1
-RequestHeaderFile=t24_RequestHeader.txt
-RequestBodyFile=NONE
-ResponseHeaderFile=t24_ResponseHeader.txt
-ContentType=
-SnapshotXmlFile=snapshot_24.xml

@@ -1,2 +1,0 @@
-"username=dwarf&password=gnom&passwordConfirm=gnom&firstName=Dwarf&lastName=Dwarfgone&address1="
-"UnderVulcan&address2=Dwarfgone%2FUnderVulcan%2FDwarf&register.x=58&register.y=6"

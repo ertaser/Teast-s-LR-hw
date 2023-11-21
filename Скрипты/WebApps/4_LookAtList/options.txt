@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--ID:\Loadrunner\first\WebApps\Look at list
--IC:\Users\ertas\LTest\LoadRunner\include
--ed:\loadrunner\first\webapps\look at list\\logfile.log
-d:\loadrunner\first\webapps\look at list\\combined_Look at list.c
-d:\loadrunner\first\webapps\look at list\\pre_cci.c
