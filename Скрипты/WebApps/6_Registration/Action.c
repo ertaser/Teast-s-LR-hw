@@ -38,7 +38,7 @@ Action()
 
 	lr_think_time(5);
 	
-	lr_start_transaction("login");
+/*	lr_start_transaction("login");
 	
 	web_reg_find("Text/IC=Welcome to Web Tours",LAST);
 	
@@ -56,6 +56,32 @@ Action()
 		"Name=passwordConfirm", "Value={password}", ENDITEM, 
 		"Name=firstName", "Value={firstName}", ENDITEM, 
 		"Name=lastName", "Value={lastName}", ENDITEM, 
+		"Name=address1", "Value={address1}", ENDITEM, 
+		"Name=address2", "Value={address2}", ENDITEM, 
+		"Name=register.x", "Value=58", ENDITEM, 
+		"Name=register.y", "Value=6", ENDITEM, 
+		LAST);
+
+	lr_end_transaction("login",LR_AUTO);*/
+	
+	lr_start_transaction("login");
+	
+	web_reg_find("Text/IC=Welcome to Web Tours",LAST);
+	
+	web_submit_data("login.pl", 
+		"Action=http://localhost:1080/cgi-bin/login.pl", 
+		"Method=POST", 
+		"TargetFrame=info", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true", 
+		"Snapshot=t3.inf", 
+		"Mode=HTML", 
+		ITEMDATA, 
+		"Name=username", "Value={unicalUserName}", ENDITEM, 
+		"Name=password", "Value={unicalPassword}", ENDITEM, 
+		"Name=passwordConfirm", "Value={unicalPassword}", ENDITEM, 
+		"Name=firstName", "Value={unicalUserName}", ENDITEM, 
+		"Name=lastName", "Value={unicalPassword}", ENDITEM, 
 		"Name=address1", "Value={address1}", ENDITEM, 
 		"Name=address2", "Value={address2}", ENDITEM, 
 		"Name=register.x", "Value=58", ENDITEM, 

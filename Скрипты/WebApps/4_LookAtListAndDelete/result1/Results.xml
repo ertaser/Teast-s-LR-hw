@@ -135,7 +135,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="23.11.2023 - 10:26:56" eTime="23.11.2023 - 10:26:56" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="24.11.2023 - 1:21:45" eTime="24.11.2023 - 1:21:45" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -146,8 +146,8 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=Web Tours</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.11.2023 - 10:26:56]]></Time>
-<TimeTick>1700717216</TimeTick>
+<Time><![CDATA[24.11.2023 - 1:21:45]]></Time>
+<TimeTick>1700770905</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
@@ -155,8 +155,8 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Url: webtours]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.11.2023 - 10:26:56]]></Time>
-<TimeTick>1700717216</TimeTick>
+<Time><![CDATA[24.11.2023 - 1:21:45]]></Time>
+<TimeTick>1700770905</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
 <Disp><![CDATA[Url: webtours]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -167,8 +167,8 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=User password was correct</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.11.2023 - 10:26:57]]></Time>
-<TimeTick>1700717217</TimeTick>
+<Time><![CDATA[24.11.2023 - 1:21:46]]></Time>
+<TimeTick>1700770906</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="11" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
@@ -176,8 +176,8 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Submit Form: login.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.11.2023 - 10:26:57]]></Time>
-<TimeTick>1700717217</TimeTick>
+<Time><![CDATA[24.11.2023 - 1:21:46]]></Time>
+<TimeTick>1700770906</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="12" status="Passed" >
 <Disp><![CDATA[Submit Form: login.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -188,17 +188,17 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=Flights List</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.11.2023 - 10:26:57]]></Time>
-<TimeTick>1700717217</TimeTick>
+<Time><![CDATA[24.11.2023 - 1:21:46]]></Time>
+<TimeTick>1700770906</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="13" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>before</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB/IC=A total of </FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB/IC= scheduled flights.</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.11.2023 - 10:26:57]]></Time>
-<TimeTick>1700717217</TimeTick>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>flightID1</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=name="flightID" value=</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=  /></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24.11.2023 - 1:21:46]]></Time>
+<TimeTick>1700770906</TimeTick>
 <NodeArgs eType="General" icon="7" nRep="14" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -206,8 +206,8 @@
 <Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Image: Itinerary Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.11.2023 - 10:26:57]]></Time>
-<TimeTick>1700717217</TimeTick>
+<Time><![CDATA[24.11.2023 - 1:21:46]]></Time>
+<TimeTick>1700770906</TimeTick>
 <NodeArgs eType="General" icon="8" nRep="15" status="Passed" >
 <Disp><![CDATA[Image: Itinerary Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -216,57 +216,48 @@
 </NodeArgs>
 </Step>
 <Step rID="T12">
-<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>after</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB/IC=A total of </FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB/IC= scheduled flights.</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.11.2023 - 10:26:57]]></Time>
-<TimeTick>1700717217</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="16" >
-<Disp><![CDATA[Service: Reg Save Param]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T13">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=Flights List</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.11.2023 - 10:26:57]]></Time>
-<TimeTick>1700717217</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="17" >
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=name="flightID" value="86855683-804-JB"</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[24.11.2023 - 1:21:46]]></Time>
+<TimeTick>1700770906</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="16" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T14">
+<Step rID="T13">
 <Obj plainTxt="False" ><![CDATA[Submit Form: itinerary.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.11.2023 - 10:26:57]]></Time>
-<TimeTick>1700717217</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="18" status="Passed" >
+<Time><![CDATA[24.11.2023 - 1:21:46]]></Time>
+<TimeTick>1700770906</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="17" status="Passed" >
 <Disp><![CDATA[Submit Form: itinerary.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t4.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T15">
+<Step rID="T14">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=Web Tours</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.11.2023 - 10:26:57]]></Time>
-<TimeTick>1700717217</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="19" >
+<Time><![CDATA[24.11.2023 - 1:21:46]]></Time>
+<TimeTick>1700770906</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="18" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T16">
+<Step rID="T15">
 <Obj plainTxt="False" ><![CDATA[Image: SignOff Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.11.2023 - 10:26:57]]></Time>
-<TimeTick>1700717217</TimeTick>
-<NodeArgs eType="General" icon="8" nRep="20" status="Passed" >
+<Time><![CDATA[24.11.2023 - 1:21:46]]></Time>
+<TimeTick>1700770906</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="19" status="Passed" >
 <Disp><![CDATA[Image: SignOff Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t5.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="23.11.2023 - 10:26:56" eTime="23.11.2023 - 10:26:57" passed="5" failed="0" warnings="0" ></Summary>
+<Summary sTime="24.11.2023 - 1:21:45" eTime="24.11.2023 - 1:21:46" passed="5" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action1 Summary]]></Disp>
 </NodeArgs>
@@ -275,14 +266,14 @@
 <Disp><![CDATA[4_LookAtListAndDelete Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T17">
+<Action rID="T16">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="23.11.2023 - 10:26:57" eTime="23.11.2023 - 10:26:57" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="23" >
+<Summary sTime="24.11.2023 - 1:21:46" eTime="24.11.2023 - 1:21:46" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="22" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="23.11.2023 - 10:26:56" eTime="23.11.2023 - 10:26:59" passed="5" failed="0" warnings="0" ></Summary>
+<Summary sTime="24.11.2023 - 1:21:45" eTime="24.11.2023 - 1:21:48" passed="5" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test 4_LookAtListAndDelete Summary]]></Disp>
 </NodeArgs>

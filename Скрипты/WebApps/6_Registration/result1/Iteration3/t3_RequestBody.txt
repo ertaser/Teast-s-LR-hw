@@ -1,2 +1,0 @@
-"username=elf&password=woods&passwordConfirm=woods&firstName=Elf&lastName=Alfheim&address1=Ashe"
-"nvale+Forest&address2=Ashenvale+Forest%2FWorld+tree&register.x=58&register.y=6"

@@ -2634,7 +2634,10 @@ Action()
 
 	lr_think_time(5);
 	
-	lr_start_transaction("login");
+ 
+# 66 "Action.c"
+	
+		lr_start_transaction("login");
 	
 	web_reg_find("Text/IC=Welcome to Web Tours","LAST");
 	
@@ -2647,11 +2650,11 @@ Action()
 		"Snapshot=t3.inf", 
 		"Mode=HTML", 
 		"ITEMDATA", 
-		"Name=username", "Value={userName}", "ENDITEM", 
-		"Name=password", "Value={password}", "ENDITEM", 
-		"Name=passwordConfirm", "Value={password}", "ENDITEM", 
-		"Name=firstName", "Value={firstName}", "ENDITEM", 
-		"Name=lastName", "Value={lastName}", "ENDITEM", 
+		"Name=username", "Value={unicalUserName}", "ENDITEM", 
+		"Name=password", "Value={unicalPassword}", "ENDITEM", 
+		"Name=passwordConfirm", "Value={unicalPassword}", "ENDITEM", 
+		"Name=firstName", "Value={unicalUserName}", "ENDITEM", 
+		"Name=lastName", "Value={unicalPassword}", "ENDITEM", 
 		"Name=address1", "Value={address1}", "ENDITEM", 
 		"Name=address2", "Value={address2}", "ENDITEM", 
 		"Name=register.x", "Value=58", "ENDITEM", 

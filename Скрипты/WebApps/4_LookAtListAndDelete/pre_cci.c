@@ -2604,7 +2604,7 @@ Action1()
 
 	lr_start_transaction("4_LookAtListAndDelete");
 
-	lr_start_transaction("Enterwebtour");
+	lr_start_transaction("Enter_webtours");
 
 	web_reg_find("Text/IC=Web Tours","LAST");
 	
@@ -2617,7 +2617,7 @@ Action1()
 		"Mode=HTML", 
 		"LAST");
 
-	lr_end_transaction("Enterwebtour",2);
+	lr_end_transaction("Enter_webtours",2);
 
 	lr_think_time(5);
 
@@ -2642,10 +2642,16 @@ Action1()
 	
 	web_reg_find("Text/IC=Flights List","LAST");
 	
-	web_reg_save_param("before",
-		"LB/IC=A total of ",
-		"RB/IC= scheduled flights.",
-		"Notfound=warning",
+ 
+
+
+
+
+	
+	web_reg_save_param("flightID1",
+		"LB=name=\"flightID\" value=",
+		"RB=  />",
+		"Ord=all",
 		"LAST");
 	
 	web_image("Itinerary Button", 
@@ -2653,28 +2659,35 @@ Action1()
 		"Snapshot=t14.inf", 
 		"LAST");
 
+	
+
 	lr_end_transaction("iterary",2);
 
 	lr_think_time(5);
 
 	lr_start_transaction("delete");
 	
-		web_reg_save_param("after",
-		"LB/IC=A total of ",
-		"RB/IC= scheduled flights.",
-		"Notfound=warning",
-		"LAST");
-	web_reg_find("Text/IC=Flights List","LAST");
+ 
+
+
+
+
+	web_reg_find("Text/IC=name=\"flightID\" value={flightID1_1}",
+             "fail=Found",
+             "LAST");
 	
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t15.inf", 
 		"ITEMDATA", 
 		"Name=1", "Value=on", "ENDITEM", 
-		"Name=2", "Value=on", "ENDITEM", 
-		"Name=3", "Value=on", "ENDITEM", 
 		"Name=removeFlights.x", "Value=35", "ENDITEM", 
 		"Name=removeFlights.y", "Value=4", "ENDITEM", 
 		"LAST");
+		
+ 
+
+
+
 	
 
 	lr_end_transaction("delete",2);

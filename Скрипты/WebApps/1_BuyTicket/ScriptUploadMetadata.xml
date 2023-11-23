@@ -28,6 +28,7 @@
     <FileEntry Name="data.zip" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv59y.801.log" Filter="1" />
     <FileEntry Name="mdrverJ.135.log" Filter="1" />
     <FileEntry Name="mdrvi1C.549.log" Filter="1" />
     <FileEntry Name="mdrvie7.295.log" Filter="1" />

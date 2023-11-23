@@ -51,7 +51,7 @@ vuser_init=cci
 Action1=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="4_LookAtListAndDelete__*delimiter*__Enterwebtour__*delimiter*__login__*delimiter*__iterary__*delimiter*__delete__*delimiter*__Logout"
+Order="4_LookAtListAndDelete__*delimiter*__Enter_webtours__*delimiter*__login__*delimiter*__iterary__*delimiter*__delete__*delimiter*__Logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -59,7 +59,7 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 4_LookAtListAndDelete=
-Enterwebtour=
+Enter_webtours=
 login=
 iterary=
 delete=
