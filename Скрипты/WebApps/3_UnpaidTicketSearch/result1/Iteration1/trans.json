@@ -1,0 +1,37 @@
+[
+    {
+        "transactionName": "Enter_Webtours",
+        "rawStartTime": 1700717197957,
+        "rawEndTime": 1700717198285
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1700717198317,
+        "rawEndTime": 1700717198524
+    },
+    {
+        "transactionName": "Flights",
+        "rawStartTime": 1700717198556,
+        "rawEndTime": 1700717198762
+    },
+    {
+        "transactionName": "FindFlight",
+        "rawStartTime": 1700717198794,
+        "rawEndTime": 1700717198952
+    },
+    {
+        "transactionName": "ChuseFly",
+        "rawStartTime": 1700717198984,
+        "rawEndTime": 1700717199110
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1700717199143,
+        "rawEndTime": 1700717199313
+    },
+    {
+        "transactionName": "3_UnpaidTicketSearch",
+        "rawStartTime": 1700717197942,
+        "rawEndTime": 1700717199329
+    }
+]

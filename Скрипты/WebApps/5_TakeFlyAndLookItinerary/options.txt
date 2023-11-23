@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Loadrunner\first\WebApps\5_TakeFlyAndLookItinerary
+-IC:\Users\ertas\LTest\LoadRunner\include
+-ed:\loadrunner\first\webapps\5_takeflyandlookitinerary\\logfile.log
+d:\loadrunner\first\webapps\5_takeflyandlookitinerary\\combined_5_TakeFlyAndLookItinerary.c
+d:\loadrunner\first\webapps\5_takeflyandlookitinerary\\pre_cci.c

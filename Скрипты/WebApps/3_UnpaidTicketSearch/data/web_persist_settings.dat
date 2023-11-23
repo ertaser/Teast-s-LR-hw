@@ -1,0 +1,17 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2023/11/07 12:40:37
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2023/11/07 12:51:13
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2023/11/19 02:30:51
+StartRecordingIsDst_3=0
+StartRecordingGMT_4=2023/11/19 02:38:58
+StartRecordingIsDst_4=0
+StartRecordingGMT_5=2023/11/19 02:54:55
+StartRecordingIsDst_5=0
+[UserHomePage]
+UserHomePage=http://go.microsoft.com/fwlink/?LinkId=625119&clocalename=ru-RU
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+[Security]
+UsingPersistForAuthentication=1

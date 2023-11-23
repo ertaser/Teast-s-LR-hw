@@ -1,0 +1,9 @@
+[t21]
+FileName1=t21.html
+URL1=http://localhost:1080/WebTours/classes/Calendar.class
+Total=1
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t21_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_15.xml

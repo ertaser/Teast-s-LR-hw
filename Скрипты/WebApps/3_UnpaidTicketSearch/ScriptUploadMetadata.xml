@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>3_UnpaidTicketSearch</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="3_UnpaidTicketSearch.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="3_UnpaidTicketSearch.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_3_UnpaidTicketSearch.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="113163929440.idx" Filter="1" />
+    <FileEntry Name="253027221440.idx" Filter="1" />
+    <FileEntry Name="39954700440.idx" Filter="1" />
+    <FileEntry Name="3_FindFlyDontPay.prm.bak" Filter="1" />
+    <FileEntry Name="3_UnpaidTicketSearch.c.pickle" Filter="1" />
+    <FileEntry Name="3_UnpaidTicketSearch.ci" Filter="1" />
+    <FileEntry Name="3_UnpaidTicketSearch.sdf" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="data.zip" Filter="1" />
+    <FileEntry Name="FindFlyDontPay.prm.bak" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv0J8.501.log" Filter="1" />
+    <FileEntry Name="mdrv0nw.599.log" Filter="1" />
+    <FileEntry Name="mdrvbnD.773.log" Filter="1" />
+    <FileEntry Name="mdrvKyH.217.log" Filter="1" />
+    <FileEntry Name="mdrvOLG.335.log" Filter="1" />
+    <FileEntry Name="mdrvq7o.147.log" Filter="1" />
+    <FileEntry Name="mdrvUyP.81.log" Filter="1" />
+    <FileEntry Name="mdrvVot.383.log" Filter="1" />
+    <FileEntry Name="mdrvx8V.617.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>4_LookAtListAndDelete</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action1.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="4_LookAtListAndDelete.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="4_LookAtListAndDelete.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_4_LookAtListAndDelete.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="4_LookAtListAndDelete.c.pickle" Filter="1" />
+    <FileEntry Name="4_LookAtListAndDelete.ci" Filter="1" />
+    <FileEntry Name="4_LookAtListAndDelete.prm.bak" Filter="1" />
+    <FileEntry Name="4_LookAtListAndDelete.sdf" Filter="1" />
+    <FileEntry Name="6210408440.idx" Filter="1" />
+    <FileEntry Name="621040844_54N.483.idx" Filter="1" />
+    <FileEntry Name="621040844_60r.319.idx" Filter="1" />
+    <FileEntry Name="621040844_6Sk.413.idx" Filter="1" />
+    <FileEntry Name="621040844_7Ip.641.idx" Filter="1" />
+    <FileEntry Name="621040844_AhB.271.idx" Filter="1" />
+    <FileEntry Name="621040844_AQd.5.idx" Filter="1" />
+    <FileEntry Name="621040844_AUa.135.idx" Filter="1" />
+    <FileEntry Name="621040844_bg8.531.idx" Filter="1" />
+    <FileEntry Name="621040844_bLt.547.idx" Filter="1" />
+    <FileEntry Name="621040844_BTc.997.idx" Filter="1" />
+    <FileEntry Name="621040844_BUI.47.idx" Filter="1" />
+    <FileEntry Name="621040844_cCe.431.idx" Filter="1" />
+    <FileEntry Name="621040844_Dh2.557.idx" Filter="1" />
+    <FileEntry Name="621040844_FFy.915.idx" Filter="1" />
+    <FileEntry Name="621040844_gw4.359.idx" Filter="1" />
+    <FileEntry Name="621040844_Lms.241.idx" Filter="1" />
+    <FileEntry Name="621040844_Mio.253.idx" Filter="1" />
+    <FileEntry Name="621040844_mSR.67.idx" Filter="1" />
+    <FileEntry Name="621040844_N5D.319.idx" Filter="1" />
+    <FileEntry Name="621040844_obe.863.idx" Filter="1" />
+    <FileEntry Name="621040844_q9q.477.idx" Filter="1" />
+    <FileEntry Name="621040844_Qo0.469.idx" Filter="1" />
+    <FileEntry Name="621040844_Qz2.891.idx" Filter="1" />
+    <FileEntry Name="621040844_rDq.463.idx" Filter="1" />
+    <FileEntry Name="621040844_RYE.245.idx" Filter="1" />
+    <FileEntry Name="621040844_SIw.809.idx" Filter="1" />
+    <FileEntry Name="621040844_SL3.965.idx" Filter="1" />
+    <FileEntry Name="621040844_tHo.793.idx" Filter="1" />
+    <FileEntry Name="621040844_WQS.895.idx" Filter="1" />
+    <FileEntry Name="621040844_x2l.805.idx" Filter="1" />
+    <FileEntry Name="621040844_XkV.191.idx" Filter="1" />
+    <FileEntry Name="621040844_yAR.97.idx" Filter="1" />
+    <FileEntry Name="621040844_ygf.753.idx" Filter="1" />
+    <FileEntry Name="621040844_ynN.947.idx" Filter="1" />
+    <FileEntry Name="621040844_Z1N.233.idx" Filter="1" />
+    <FileEntry Name="621040844_Zw9.303.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="data.zip" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="Look at list.prm.bak" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

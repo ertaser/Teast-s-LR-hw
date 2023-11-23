@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Loadrunner\first\WebApps\2_LoginAndLogout
+-IC:\Users\ertas\LTest\LoadRunner\include
+-ed:\loadrunner\first\webapps\2_loginandlogout\\logfile.log
+d:\loadrunner\first\webapps\2_loginandlogout\\combined_2_LoginAndLogout.c
+d:\loadrunner\first\webapps\2_loginandlogout\\pre_cci.c
