@@ -1,0 +1,12 @@
+POST /cgi-bin/reservations.pl HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://localhost:1080/cgi-bin/reservations.pl
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:1080
+Cookie: MSO=SID&1700776977; MTUserInfo=firstName&Elf&address2&Ashenvale%20Forest%2FWorld%20tree&username&elf&hash&102&lastName&Alfheim%0A&address1&Ashenvale%20Forest&creditCard&&expDate&%0A
+Content-Length: 348
+

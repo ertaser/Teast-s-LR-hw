@@ -2648,12 +2648,6 @@ Action1()
 
 
 	
-	web_reg_save_param("flightID1",
-		"LB=name=\"flightID\" value=",
-		"RB=  />",
-		"Ord=all",
-		"LAST");
-	
 	web_image("Itinerary Button", 
 		"Alt=Itinerary Button", 
 		"Snapshot=t14.inf", 
@@ -2667,6 +2661,12 @@ Action1()
 
 	lr_start_transaction("delete");
 	
+		web_reg_save_param("flightID1",
+		"LB=name=\"flightID\" value=",
+		"RB=  />",
+		"Ord=all",
+		"LAST");
+	
  
 
 
@@ -2677,7 +2677,7 @@ Action1()
              "LAST");
 	
 	web_submit_form("itinerary.pl", 
-		"Snapshot=t15.inf", 
+		"Snapshot=t14.inf", 
 		"ITEMDATA", 
 		"Name=1", "Value=on", "ENDITEM", 
 		"Name=removeFlights.x", "Value=35", "ENDITEM", 

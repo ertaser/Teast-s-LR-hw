@@ -24,7 +24,7 @@ Description=
 ScriptLocale=ru-RU
 [Actions]
 vuser_init=vuser_init.c
-Action1=Action1.c
+Action=Action.c
 vuser_end=vuser_end.c
 [RunLogicFiles]
 Default Profile=default.usp
@@ -36,31 +36,24 @@ Default Profile=default.cfg
 globals.h=
 [Modified Actions]
 vuser_init=0
-Action1=1
+Action=1
 vuser_end=0
 [Recorded Actions]
 vuser_init=1
-Action1=1
+Action=1
 vuser_end=0
 [Replayed Actions]
 vuser_init=1
-Action1=1
+Action=1
 vuser_end=1
 [Interpreters]
 vuser_init=cci
-Action1=cci
+Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="4_LookAtListAndDelete__*delimiter*__Enter_webtours__*delimiter*__login__*delimiter*__iterary__*delimiter*__delete__*delimiter*__Logout"
+Order=
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
-[Transactions]
-4_LookAtListAndDelete=
-Enter_webtours=
-login=
-iterary=
-delete=
-Logout=

@@ -2637,9 +2637,9 @@ Action()
  
 # 66 "Action.c"
 	
-		lr_start_transaction("login");
+	lr_start_transaction("login");
 	
-	web_reg_find("Text/IC=Welcome to Web Tours","LAST");
+	web_reg_find("Text/IC=welcome to the Web Tours family","LAST");
 	
 	web_submit_data("login.pl", 
 		"Action=http://localhost:1080/cgi-bin/login.pl", 
@@ -2667,7 +2667,7 @@ Action()
 
 	lr_start_transaction("DrimTrip");
 	
-	web_reg_find("Text/IC=Web Tours","LAST");
+	web_reg_find("Text/IC=to the Web Tours reservation pages","LAST");
 
 	web_url("button_next.gif", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=menus", 

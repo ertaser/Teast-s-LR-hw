@@ -2768,7 +2768,7 @@ Action()
 
 	lr_think_time(5);
 
-	lr_start_transaction("itenary");
+	lr_start_transaction("iterary");
 	
 	web_reg_find("Text/IC=Itinerary Frame","LAST");
 
@@ -2782,7 +2782,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	lr_end_transaction("itenary",2);
+	lr_end_transaction("iterary",2);
 
 	lr_think_time(5);
 

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Thu, 23 Nov 2023 22:01:17 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&75624218&address2&Dwarfgone%2FUnderVulcan%2FDwarf&username&75624218&hash&24&lastName&1321285916&address1&UnderVulcan&creditCard&&expDate&; path=/
+Keep-Alive: timeout=5, max=96
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

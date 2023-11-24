@@ -1,0 +1,47 @@
+[
+    {
+        "transactionName": "Enter_Webtours",
+        "rawStartTime": 1700776969915,
+        "rawEndTime": 1700776970123
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1700776970154,
+        "rawEndTime": 1700776970390
+    },
+    {
+        "transactionName": "Flights",
+        "rawStartTime": 1700776970422,
+        "rawEndTime": 1700776970629
+    },
+    {
+        "transactionName": "FindFlight",
+        "rawStartTime": 1700776970661,
+        "rawEndTime": 1700776970817
+    },
+    {
+        "transactionName": "ChuseFly",
+        "rawStartTime": 1700776970849,
+        "rawEndTime": 1700776970992
+    },
+    {
+        "transactionName": "Credintails",
+        "rawStartTime": 1700776971024,
+        "rawEndTime": 1700776971167
+    },
+    {
+        "transactionName": "iterary",
+        "rawStartTime": 1700776971199,
+        "rawEndTime": 1700776971516
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1700776971546,
+        "rawEndTime": 1700776971720
+    },
+    {
+        "transactionName": "5_TakeFlyAndLookItinerary",
+        "rawStartTime": 1700776969899,
+        "rawEndTime": 1700776971736
+    }
+]

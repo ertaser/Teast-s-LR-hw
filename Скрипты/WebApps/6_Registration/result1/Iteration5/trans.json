@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "Enter_Webtours",
+        "rawStartTime": 1700776869610,
+        "rawEndTime": 1700776869750
+    },
+    {
+        "transactionName": "SignUP",
+        "rawStartTime": 1700776869781,
+        "rawEndTime": 1700776869924
+    },
+    {
+        "transactionName": "login",
+        "rawStartTime": 1700776869955,
+        "rawEndTime": 1700776870066
+    },
+    {
+        "transactionName": "DrimTrip",
+        "rawStartTime": 1700776870098,
+        "rawEndTime": 1700776870269
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1700776870301,
+        "rawEndTime": 1700776870460
+    },
+    {
+        "transactionName": "6_Registration",
+        "rawStartTime": 1700776869579,
+        "rawEndTime": 1700776870477
+    }
+]

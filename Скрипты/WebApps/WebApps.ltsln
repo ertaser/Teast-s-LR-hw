@@ -7,7 +7,7 @@ Project("1602F612-087C-45D6-B273-41DECDFA1684") = "1_BuyTicket", "1_BuyTicket\1_
 		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XExvYWRydW5uZXJcZmlyc3RcV2ViQXBwc1wxX0J1eVRpY2tldFwxX0J1eVRpY2tldC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+MV9CdXlUaWNrZXQudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0xMS0yMlQwMzo1Mzo0MC4zNTkxNjYxKzA1OjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
 	EndProjectSection
 	ProjectSection(ExpandInVugen) = Data
-		Value = True
+		Value = False
 	EndProjectSection
 EndProject
 Project("23C7D4B7-EE3F-4874-9230-04E57D537A9D") = "2_LoginAndLogout", "2_LoginAndLogout\2_LoginAndLogout.usr", "23C7D4B7-EE3F-4874-9230-04E57D537A9D"
@@ -15,7 +15,7 @@ Project("23C7D4B7-EE3F-4874-9230-04E57D537A9D") = "2_LoginAndLogout", "2_LoginAn
 		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XExvYWRydW5uZXJcZmlyc3RcV2ViQXBwc1wyX0xvZ2luQW5kTG9nb3V0XDJfTG9naW5BbmRMb2dvdXQudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPjJfTG9naW5BbmRMb2dvdXQudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0xMS0xMlQxNDowNzoyMi40MjQ0NDEzKzA1OjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
 	EndProjectSection
 	ProjectSection(ExpandInVugen) = Data
-		Value = True
+		Value = False
 	EndProjectSection
 EndProject
 Project("FDFF005E-4996-4C3C-802F-2EF42EF674C1") = "3_UnpaidTicketSearch", "3_UnpaidTicketSearch\3_UnpaidTicketSearch.usr", "FDFF005E-4996-4C3C-802F-2EF42EF674C1"
@@ -23,7 +23,7 @@ Project("FDFF005E-4996-4C3C-802F-2EF42EF674C1") = "3_UnpaidTicketSearch", "3_Unp
 		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XExvYWRydW5uZXJcZmlyc3RcV2ViQXBwc1wzX1VucGFpZFRpY2tldFNlYXJjaFwzX1VucGFpZFRpY2tldFNlYXJjaC51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+M19VbnBhaWRUaWNrZXRTZWFyY2gudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0xMS0yMlQwMzo1NjoyMi4wMTI0MzEzKzA1OjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
 	EndProjectSection
 	ProjectSection(ExpandInVugen) = Data
-		Value = True
+		Value = False
 	EndProjectSection
 EndProject
 Project("18B4A96B-645B-4992-8F91-8E31D4413534") = "4_LookAtListAndDelete", "4_LookAtListAndDelete\4_LookAtListAndDelete.usr", "18B4A96B-645B-4992-8F91-8E31D4413534"
@@ -47,7 +47,7 @@ Project("122FE2D2-2266-4B19-B9D9-389B93946CD3") = "6_Registration", "6_Registrat
 		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkQ6XExvYWRydW5uZXJcZmlyc3RcV2ViQXBwc1w2X1JlZ2lzdHJhdGlvblw2X1JlZ2lzdHJhdGlvbi51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+Nl9SZWdpc3RyYXRpb24udXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAyMy0xMS0xMlQxNDowODo1Ny44NjY2NjgzKzA1OjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
 	EndProjectSection
 	ProjectSection(ExpandInVugen) = Data
-		Value = True
+		Value = False
 	EndProjectSection
 EndProject
 Global
