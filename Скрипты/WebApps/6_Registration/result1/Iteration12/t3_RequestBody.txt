@@ -1,3 +1,0 @@
-"username=75624218&password=1321285916&passwordConfirm=1321285916&firstName=75624218&lastName=1"
-"321285916&address1=UnderVulcan&address2=Dwarfgone%2FUnderVulcan%2FDwarf&register.x=58&register"
-".y=6"

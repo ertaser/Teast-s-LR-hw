@@ -64,7 +64,7 @@ Action()
 
 	lr_end_transaction("login",LR_AUTO);*/
 	
-	lr_start_transaction("login");
+	lr_start_transaction("loginAuthorization");
 	
 	web_reg_find("Text/IC=welcome to the Web Tours family",LAST);
 	
@@ -88,7 +88,7 @@ Action()
 		"Name=register.y", "Value=6", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("login",LR_AUTO);
+	lr_end_transaction("loginAuthorization",LR_AUTO);
 
 	lr_think_time(5);
 

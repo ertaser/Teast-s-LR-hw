@@ -1,3 +1,0 @@
-"username=365981094&password=905849692&passwordConfirm=905849692&firstName=365981094&lastName=9"
-"05849692&address1=Ashenvale+Forest&address2=Ashenvale+Forest%2FWorld+tree&register.x=58&regist"
-"er.y=6"
