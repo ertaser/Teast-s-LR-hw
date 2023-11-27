@@ -1,4 +1,0 @@
-"firstName=Elf&lastName=Alfheim&address1=Ashenvale+Forest&address2=Ashenvale+Forest%2FWorld+tre"
-"e&pass1=Elf+Alfheim&creditCard=Blizzard&expDate=overdue&oldCCOption=&numPassengers=1&seatType="
-"Coach&seatPref=Aisle&outboundFlight=922%3B176%3B11%2F25%2F2023&advanceDiscount=0&returnFlight="
-"&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=51&buyFlights.y=12"

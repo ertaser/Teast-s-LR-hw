@@ -1,4 +1,0 @@
-"firstName=Eldrad&lastName=Ultran&address1=artificial+world&address2=artificial+world&pass1=Eld"
-"rad+Ultran&creditCard=1212&expDate=321&oldCCOption=&numPassengers=1&seatType=Business&seatPref"
-"=Window&outboundFlight=562%3B104%3B11%2F25%2F2023&advanceDiscount=0&returnFlight=&JSFormSubmit"
-"=off&.cgifields=saveCC&buyFlights.x=51&buyFlights.y=12"

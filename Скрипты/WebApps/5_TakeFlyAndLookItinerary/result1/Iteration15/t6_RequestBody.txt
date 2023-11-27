@@ -1,4 +1,0 @@
-"firstName=Jonatan&lastName=Jostar&address1=Jostar+mansion&address2=Liverpool&pass1=Jonatan+Jos"
-"tar&creditCard=Overdrive&expDate=never&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=Ai"
-"sle&outboundFlight=742%3B565%3B11%2F25%2F2023&advanceDiscount=0&returnFlight=&JSFormSubmit=off"
-"&.cgifields=saveCC&buyFlights.x=51&buyFlights.y=12"
