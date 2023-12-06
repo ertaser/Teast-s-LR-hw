@@ -1,0 +1,40 @@
+[Scenario]
+Product=HPE LoadRunner Controller
+Version=12.55.0.0
+Path=D:\Scenario LR\LRtes\Scenario1 (debugging test).lrs
+Subject=Scenario1 (debugging test)
+Result_file=d:\temp\res\res.lrr
+Description=
+ResultName=res
+Time_Zone=-18000
+Start_time=1701447317
+Daylight_Bias=0
+Stop_time=1701448625
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 10 Vusers: 1 every 00:00:05 (HH:MM:SS); Run for 00:20:00 (HH:MM:SS); Stop all Vusers simultaneously
+Load Behavior=Initialize each Vuser just before it runs
+[Scripts]
+1_BuyTicketAndLookItinerary=D:\Loadrunner\first\WebApps\1_BuyTicketAndLookItinerary\1_BuyTicketAndLookItinerary.usr
+3_UnpaidTicketSearch=D:\Loadrunner\first\WebApps\3_UnpaidTicketSearch\3_UnpaidTicketSearch.usr
+5_Registration=D:\Loadrunner\first\WebApps\5_Registration\5_Registration.usr
+2_LoginAndLogout=D:\Loadrunner\first\WebApps\2_LoginAndLogout\2_LoginAndLogout.usr
+4_LookAtListAndDelete_1=D:\Loadrunner\first\WebApps\4_LookAtListAndDelete\4_LookAtListAndDelete.usr
+[Scripts_types]
+1_BuyTicketAndLookItinerary=Multi+QTWeb
+3_UnpaidTicketSearch=Multi+QTWeb
+5_Registration=Multi+QTWeb
+2_LoginAndLogout=Multi+QTWeb
+4_LookAtListAndDelete_1=Multi+QTWeb

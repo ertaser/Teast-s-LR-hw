@@ -1,0 +1,53 @@
+28 11 1701447317 2 276044848 -21810523 1699572
+28 4 1_BuyTicketAndLookItinerary 1 1701447318 0 1_BuyTicketAndLookItinerary localhost 0 1
+28 10 localhost 28 0 0
+28 0 1_BuyTicketAndLookItinerary 1 1701447318 0 localhost 0
+28 8 1_BuyTicketAndLookItinerary 1  0 0
+28 2 1_BuyTicketAndLookItinerary 1 1701447318 0 p 0 0
+28 4 3_UnpaidTicketSearch 1 1701447322 0 3_UnpaidTicketSearch localhost 0 1
+28 0 3_UnpaidTicketSearch 1 1701447322 0 localhost 0
+28 8 3_UnpaidTicketSearch 1  0 0
+28 2 3_UnpaidTicketSearch 1 1701447322 0 p 0 0
+28 4 5_Registration 1 1701447327 0 5_Registration localhost 0 1
+28 0 5_Registration 1 1701447327 0 localhost 0
+28 8 5_Registration 1  0 0
+28 2 5_Registration 1 1701447327 0 p 0 0
+28 4 2_LoginAndLogout 1 1701447332 0 2_LoginAndLogout localhost 0 1
+28 0 2_LoginAndLogout 1 1701447332 0 localhost 0
+28 8 2_LoginAndLogout 1  0 0
+28 2 2_LoginAndLogout 1 1701447332 0 p 0 0
+28 4 4_LookAtListAndDelete 1 1701447337 0 4_LookAtListAndDelete_1 localhost 0 1
+28 0 4_LookAtListAndDelete 1 1701447337 0 localhost 0
+28 8 4_LookAtListAndDelete 1  0 0
+28 2 4_LookAtListAndDelete 1 1701447337 0 p 0 0
+28 4 1_BuyTicketAndLookItinerary 2 1701447342 0 1_BuyTicketAndLookItinerary localhost 0 1
+28 0 1_BuyTicketAndLookItinerary 2 1701447342 0 localhost 0
+28 8 1_BuyTicketAndLookItinerary 2  0 0
+28 2 1_BuyTicketAndLookItinerary 2 1701447342 0 p 0 0
+28 4 5_Registration 2 1701447347 0 5_Registration localhost 0 1
+28 0 5_Registration 2 1701447347 0 localhost 0
+28 8 5_Registration 2  0 0
+28 2 5_Registration 2 1701447347 0 p 0 0
+28 4 3_UnpaidTicketSearch 2 1701447352 0 3_UnpaidTicketSearch localhost 0 1
+28 0 3_UnpaidTicketSearch 2 1701447352 0 localhost 0
+28 8 3_UnpaidTicketSearch 2  0 0
+28 2 3_UnpaidTicketSearch 2 1701447352 0 p 0 0
+28 4 2_LoginAndLogout 2 1701447357 0 2_LoginAndLogout localhost 0 1
+28 0 2_LoginAndLogout 2 1701447357 0 localhost 0
+28 8 2_LoginAndLogout 2  0 0
+28 2 2_LoginAndLogout 2 1701447357 0 p 0 0
+28 4 1_BuyTicketAndLookItinerary 3 1701447362 0 1_BuyTicketAndLookItinerary localhost 0 1
+28 0 1_BuyTicketAndLookItinerary 3 1701447362 0 localhost 0
+28 8 1_BuyTicketAndLookItinerary 3  0 0
+28 2 1_BuyTicketAndLookItinerary 3 1701447362 0 p 0 0
+28 1 2_LoginAndLogout 1 1701448572 0 2
+28 1 1_BuyTicketAndLookItinerary 3 1701448583 0 2
+28 1 3_UnpaidTicketSearch 1 1701448596 0 2
+28 1 5_Registration 1 1701448596 0 2
+28 1 2_LoginAndLogout 2 1701448597 0 2
+28 1 1_BuyTicketAndLookItinerary 1 1701448598 0 2
+28 1 4_LookAtListAndDelete 1 1701448613 0 2
+28 1 5_Registration 2 1701448615 0 2
+28 1 1_BuyTicketAndLookItinerary 2 1701448620 0 2
+28 1 3_UnpaidTicketSearch 2 1701448625 0 2
+28 12 1701448625 1 1701448625 0 1701448625

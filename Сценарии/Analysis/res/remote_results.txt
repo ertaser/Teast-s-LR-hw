@@ -1,0 +1,2 @@
+[Hosts]
+localhost=d:\temp\res\localhost_243.eve
